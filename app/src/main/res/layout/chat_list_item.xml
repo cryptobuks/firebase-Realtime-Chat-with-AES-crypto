@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/content"
+        android:padding="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10:58 PM"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            android:gravity="start"
+            android:singleLine="true"/>
+        <LinearLayout
+            android:id="@+id/contentWithBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/out_message_bg">
+            <TextView
+                android:id="@+id/txt_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, my name is ilham"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/txt_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab to play"
+                android:textSize="10sp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

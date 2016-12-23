@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "314470709552",
+    "firebase_url": "https://securechatting-1f50d.firebaseio.com",
+    "project_id": "securechatting-1f50d",
+    "storage_bucket": "securechatting-1f50d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314470709552:android:29f44f33e872b0b4",
+        "android_client_info": {
+          "package_name": "com.developer.ilhamsuaib.securechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314470709552-c2hq55pc28dve825ocgo44j0g93djh16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSMds-ScNdUjEmQTsuewVGxbJOWJgBxk4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

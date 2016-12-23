@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edt_chiper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Encrypted Text"
+            android:enabled="false"
+            android:textColor="@android:color/black"
+            android:focusable="false"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edt_dekrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Decrypted Text"
+            android:enabled="false"
+            android:textColor="@android:color/black"
+            android:focusable="false"/>
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
