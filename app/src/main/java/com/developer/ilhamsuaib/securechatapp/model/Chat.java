@@ -1,4 +1,4 @@
-package com.developer.ilhamsuaib.securechatapp.entity;
+package com.developer.ilhamsuaib.securechatapp.model;
 
 /**
  * Created by ilham on 07/12/2016.

@@ -1,4 +1,4 @@
-package com.developer.ilhamsuaib.securechatapp;
+package com.developer.ilhamsuaib.securechatapp.adapter;
 
 import android.app.Activity;
 import android.graphics.Typeface;
@@ -8,8 +8,9 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.developer.ilhamsuaib.securechatapp.aeshelper.AESHelper;
-import com.developer.ilhamsuaib.securechatapp.entity.Chat;
+import com.developer.ilhamsuaib.securechatapp.R;
+import com.developer.ilhamsuaib.securechatapp.helper.AESHelper;
+import com.developer.ilhamsuaib.securechatapp.model.Chat;
 import com.firebase.ui.database.FirebaseListAdapter;
 import com.google.firebase.database.Query;
 
@@ -27,8 +28,8 @@ public class ChatAdapter extends FirebaseListAdapter<Chat>{
      *                    combination of {@code limit()}, {@code startAt()}, and {@code endAt()}.
      */
     private String username;
-    public ChatAdapter(Activity activity, Class<Chat> modelClass, int modelLayout, Query ref, String username) {
-        super(activity, modelClass, modelLayout, ref);
+    public ChatAdapter(Activity activity, Class<Chat> modelClass, Query ref, String username) {
+        super(activity, modelClass, R.layout.chat_list_item, ref);
         this.username = username;
     }
 

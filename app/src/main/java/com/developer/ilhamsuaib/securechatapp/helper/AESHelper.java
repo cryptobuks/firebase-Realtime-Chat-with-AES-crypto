@@ -1,4 +1,4 @@
-package com.developer.ilhamsuaib.securechatapp.aeshelper;
+package com.developer.ilhamsuaib.securechatapp.helper;
 
 /**
  * Created by ilham on 13/12/2016.
